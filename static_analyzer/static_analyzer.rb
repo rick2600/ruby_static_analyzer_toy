@@ -65,7 +65,7 @@ class StaticAnalyzer
 
   def find_vulns(artifact)
     artifact.functions.each do |function|
-      puts "[*] Finding dangerous fcall for #{function.name}"
+      puts "[*] Finding dangerous fcall in #{function.name}"
       #function.cfg.taint_analysis(config)
       function.cfg.find_dangerous_fcall(@config)
       function.vulnerabilities.each do |vuln|
