@@ -9,6 +9,9 @@ This is not a real static analyzer but a toy project to learn and put ideas and 
 * Very very simple intraprocedural taint analysis
 * No sanitization support
 
+# Requirements
+* Ruby >= 2.6
+
 # How to test it
 ```
 ruby main.rb --ast2png --cfg2png --find-vulns -w workspac0 samples/vuln.rb
