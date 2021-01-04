@@ -1,6 +1,6 @@
 # Description
 
-This is not a real static analyzer but a toy project to learn and put ideas and algorithm into practice.
+This is not a real static analyzer but a toy project to learn and put ideas and algorithms into practice.
 
 # Limitations
 * The things already implemented operate on named function only
