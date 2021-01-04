@@ -1,4 +1,4 @@
-require_relative 'opt_parse'
+require_relative 'opt_parser'
 require_relative 'static_analyzer/static_analyzer'
 
 
