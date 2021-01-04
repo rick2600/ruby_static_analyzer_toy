@@ -5,6 +5,7 @@ This is not a real static analyzer but a toy project to learn and put ideas and 
 # Limitations
 * The things already implemented operate on named function only
 * No module or class support
+* Simple CFG (ex.: if/else, while, .upto)
 * Very very simple intraprocedural taint analysis
 * No sanitization support
 
